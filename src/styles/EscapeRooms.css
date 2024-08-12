@@ -1,0 +1,44 @@
+.escapeRoom-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Ensure the element takes the full height of the viewport */
+    margin: 0; /* Remove margins to ensure perfect centering */
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center; /* Optional: ensures text is centered within the flex container */
+    box-sizing: border-box;
+}
+
+.hidden {
+    background-color: white;
+    color: white;
+    border: none;
+}
+
+.hidden:hover {
+    cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .escapeRoom-title {
+        font-size: 1.75rem;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .escapeRoom-title {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .escapeRoom-title {
+        font-size: 1.25rem;
+        padding: 5px;
+    }
+}

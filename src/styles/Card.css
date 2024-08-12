@@ -1,0 +1,118 @@
+.card--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    width: 50%;
+    margin: 20px;
+    padding: 30px;
+    background-color: #f0f8ff;
+    font-family: 'Inter', sans-serif;
+    border: 0.3rem solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.card--button {
+    width: auto;
+    padding: 10px 20px;
+    margin: 10px 0 0 0;
+    align-self: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    border: 0.15rem solid;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    white-space: nowrap; /* Prevent text overflow */
+    box-sizing: border-box;
+}
+
+.card--button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.card--title {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.card--riddle {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.card--answer {
+    font-size: 1rem;
+    padding: 0;
+    margin: 10px 0 0 0;
+    align-self: flex-start;
+    font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .card--container {
+        width: 70%;
+        padding: 20px;
+    }
+
+    .card--title {
+        font-size: 1.25rem;
+    }
+
+    .card--riddle,
+    .card--answer {
+        font-size: 0.9rem;
+    }
+
+    .card--button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card--container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .card--title {
+        font-size: 1.1rem;
+    }
+
+    .card--riddle,
+    .card--answer {
+        font-size: 0.8rem;
+    }
+
+    .card--button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card--container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .card--title {
+        font-size: 1rem;
+    }
+
+    .card--riddle,
+    .card--answer {
+        font-size: 0.75rem;
+    }
+
+    .card--button {
+        font-size: 0.75rem;
+        padding: 5px 10px;
+    }
+}

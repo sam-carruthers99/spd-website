@@ -1,0 +1,114 @@
+/* Main.css */
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns layout for large screens */
+    gap: 30px; /* Space between each box--container */
+    margin-top: 5vh;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px; /* Limit the max width of the container */
+    margin: 0 auto; /* Center the main container */
+    height: 90vh;
+    /* overflow: hidden; */
+}
+
+/* Main content */
+.box--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.box, .empty--box {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border: 0.4rem solid;
+    width: 100%; /* Make sure boxes take up the full width of the column */
+}
+
+.box {
+    background-color: #d3e4f4; /* Light blue */
+    font-family: 'Bahnschrift';
+    font-weight: 800;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.box img {
+    width: 40%; 
+    height: auto;
+}
+
+.empty--box {
+    background-color: #f0f8ff; /* Slightly lighter blue */
+    font-family: 'Bahnschrift';
+    font-size: 1.2rem;
+    color: #333; /* Darker text */
+}
+
+/* Hover effect */
+.box:hover {
+    border-radius: 30px;
+    background-color: #c0d8ee; /* Darker blue */
+}
+
+/* Responsive adjustments */
+
+/* Medium screens: 2 columns */
+@media (max-width: 1024px) {
+    .main {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns layout for medium screens */
+        max-width: 600px; 
+        margin-top: 5vh;
+    }
+
+    .box, .empty--box {
+        font-size: 1.5rem;
+    }
+
+    .box img {
+        width: 40%;
+    }
+}
+
+/* Small screens: 1 column */
+@media (max-width: 768px) {
+    .main {
+        grid-template-columns: 1fr; /* 1 column layout for small screens */
+        max-width: 400px; 
+    }
+
+    .box, .empty--box {
+        font-size: 1.2rem;
+    }
+
+    .box img {
+        width: 35%;
+    }
+}
+
+/* Very small screens: 1 column */
+@media (max-width: 480px) {
+    .main {
+        grid-template-columns: 1fr; /* 1 column layout for very small screens */
+        max-width: 300px; 
+    }
+
+    .box, .empty--box {
+        font-size: 1rem;
+    }
+
+    .box img {
+        width: 30%;
+    }
+}

@@ -1,0 +1,217 @@
+.cipher--card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f8ff;
+    width: 100%;
+    max-width: 1000px;
+    padding: 4rem;
+    border: solid 0.5rem;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+.cipher--card > * {
+    padding: 0px;
+    margin: 5px;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border: 0.3rem solid;
+    box-sizing: border-box;
+}
+
+.cipher--button {
+    margin: 0px 20px 5px 5px;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 3px;
+    background-color: #fbf7f5;
+    border: 0.3rem solid;
+    white-space: nowrap; /* Prevent text overflow */
+    box-sizing: border-box;
+}
+
+.cipher--button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.cipher--input {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.key--input {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    width: 100px;
+    height: 40px;
+    margin-right: 20px;
+    border: none;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.key--label {
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.button--container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping */
+}
+
+.title--container {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap; /* Allow wrapping */
+}
+
+.title--item {
+    margin: 0px 50px 10px 0px;
+    padding: 0px;
+}
+
+button.title--item {
+    padding: 10px;
+    border: 0.3rem solid;
+    background-color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    white-space: nowrap; /* Prevent text overflow */
+    box-sizing: border-box;
+}
+
+button.title--item:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.dropdown--content {
+    position: absolute;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.dropdown--content > li {
+    list-style-type: none;
+}
+
+.dropdown--list {
+    margin-bottom: 10px;
+}
+
+.dropdown--list:hover {
+    color: #83aff0; /* Light blue */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .cipher--card {
+        padding: 3rem;
+    }
+
+    .cipher--button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .key--input {
+        font-size: 1rem;
+        padding: 4px;
+    }
+
+    .key--label {
+        font-size: 1rem;
+    }
+
+    .title--item {
+        font-size: 1rem;
+    }
+
+    button.title--item {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cipher--card {
+        padding: 2rem;
+    }
+
+    .cipher--button {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    .key--input {
+        font-size: 0.9rem;
+        padding: 3px;
+    }
+
+    .key--label {
+        font-size: 0.9rem;
+    }
+
+    .title--item {
+        font-size: 0.9rem;
+    }
+
+    button.title--item {
+        font-size: 0.8rem;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cipher--card {
+        padding: 1rem;
+    }
+
+    .cipher--button {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    .key--input {
+        font-size: 0.8rem;
+        padding: 2px;
+    }
+
+    .key--label {
+        font-size: 0.8rem;
+    }
+
+    .title--item {
+        font-size: 0.8rem;
+    }
+
+    button.title--item {
+        font-size: 0.7rem;
+        padding: 5px;
+    }
+}
