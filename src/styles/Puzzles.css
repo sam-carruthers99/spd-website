@@ -111,12 +111,12 @@
 @media (max-width: 768px) {
     .puzzles-title {
         margin: 30px;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .puzzle--image {
-        width: 35vh;
-        height: 35vh;
+        width: 45vh;
+        height: 45vh;
     }
 
     .input--label, .input--box, .input--button {

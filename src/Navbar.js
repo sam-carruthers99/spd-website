@@ -19,7 +19,7 @@ export default function NavBar() {
     <nav className="container">
       <div className="navbar-left">
         <h2 className="title">SolvePuzzlesDaily</h2>
-        <img src={require("./images/lock.png")} className="image" alt="gloom" />
+        <img src={require("./images/small-spd-no-background.png")} className="image" alt="gloom" />
       </div>
       <div className={`list-container ${isOpen ? "open" : ""}`}>
         <ul className="list">

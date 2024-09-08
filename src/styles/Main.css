@@ -62,6 +62,10 @@
     background-color: #c0d8ee; /* Darker blue */
 }
 
+.hidden--box {
+    display: none;
+}
+
 /* Responsive adjustments */
 
 /* Medium screens: 2 columns */
@@ -89,7 +93,19 @@
     }
 
     .box, .empty--box {
+        font-size: 1.3rem;
+    }
+
+    .empty--box {
+        display: none;
+    }
+
+    .hidden--box {
+        display: flex;
+        margin-top: 5vh;
+        font-weight: 400;
         font-size: 1.2rem;
+        padding: 5px;
     }
 
     .box img {
@@ -105,7 +121,19 @@
     }
 
     .box, .empty--box {
+        font-size: 1.1rem;
+    }
+
+    .empty--box {
+        display: none;
+    }
+
+    .hidden--box {
+        display: flex;
+        margin-top: 4vh;
+        font-weight: 400;
         font-size: 1rem;
+        padding: 3px;
     }
 
     .box img {
