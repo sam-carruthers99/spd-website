@@ -1,7 +1,7 @@
 import "./styles/Riddles.css";
 import Card from "./Card.js";
 import { useEffect, useState } from 'react';
-import AWS from 'aws-sdk';
+import riddlesData from './riddles.json';
 
 export default function Riddles() {
     
@@ -9,9 +9,13 @@ export default function Riddles() {
     const [currentPage, setCurrentPage] = useState(1);
     const cardsPerPage = 10;
 
-    // TO DO
-    // Create a JSON file that has all the data for riddles that you can add to, then read that in here rather than DB
-    //  <Card key={index} title={title} riddle={riddle} answer={answer} />;
+    // JSON File with all riddle information
+    useEffect(() => {
+        const riddleCards = riddlesData.riddles.map((riddle, index) => (
+            <Card key={index} title={riddle.title} riddle={riddle.riddle} answer={riddle.answer} />
+        ));
+        setCards(riddleCards);
+    }, []);
 
     // Get current cards
     const indexOfLastCard = currentPage * cardsPerPage;

@@ -1,0 +1,185 @@
+{
+    "riddles": [
+        {
+            "title": "Bear Thief",
+            "riddle": "I left my campsite and hiked south for 3 miles. Then I turned east and hiked for 3 miles. I then turned north and hiked for 3 miles, at which time I came upon a bear inside my tent eating my food! What color was the bear?",
+            "answer": "White"
+        },
+        {
+            "title": "Not Twins?",
+            "riddle": "Two boys are born to the same molther on the same day at the same time in the same month and year and yet they're not twins. How?",
+            "answer": "They are triplets"
+        },
+        {
+            "title": "A Real Place?",
+            "riddle": "What has cities, but not houses; forests, but not trees; and rivers, but no water?",
+            "answer": "A map"
+        },
+        {
+            "title": "Colorful Houses",
+            "riddle": "A red house is made from red bricks. A blue house is made from blue bricks. A yellow house is made from yellow bricks. What is a green house made from?",
+            "answer": "Glass"
+        },
+        {
+            "title": "Animal Frankenstien",
+            "riddle": "What is 3/7 chicken, 2/3 cat, and 2/4 goat?",
+            "answer": "Chicago"
+        },
+        {
+            "title": "Cheap Book",
+            "riddle": "A book costs $1 plus half its price. How much does it cost?",
+            "answer": "$2"
+        },
+        {
+            "title": "Big Family",
+            "riddle": "Your parents have six sons including you, and each son has one sister. How many people are in the family?",
+            "answer": "7"
+        },
+        {
+            "title": "Waterproof Man",
+            "riddle": "A man was walking in the rain. He had no umbrella, no hat, and his clothes were soaked. Yet not a single hair on his head got wet. How could this happen?",
+            "answer": "He was bald"
+        },
+        {
+            "title": "Birthday Riddle",
+            "riddle": "The day before yesterday I was 21, and next year I will be 24. When is my birthday?",
+            "answer": "December 31st"
+        },
+        {
+            "title": "Don't Steal",
+            "riddle": "The more you take, the more you leave behind. What am I?",
+            "answer": "Foot steps / foot prints"
+        },
+        {
+            "title": "Highest Mountain",
+            "riddle": "Before Mount Everest was discovered, what was the highest mountain on Earth?",
+            "answer": "Mount Everest"
+        },
+        {
+            "title": "Time Travel?",
+            "riddle": "A man rode out of town on Sunday, he stayed a whole night at a hotel and rode back to town the next day on Sunday. How is this possible?",
+            "answer": "His horse's name is Sunday"
+        },
+        {
+            "title": "Reverse Riddle",
+            "riddle": "Forward I am heavy, but backward I am not. What am I?",
+            "answer": "Ton"
+        },
+        {
+            "title": "Timepiece",
+            "riddle": "A sundial has the fewest moving parts of any timepiece. Which has the most?",
+            "answer": "An hourglass"
+        },
+        {
+            "title": "Expensive Hotel",
+            "riddle": "A man pushes his car until he reaches a hotel. Upon reaching the hotel, he is bankrupt. What happened?",
+            "answer": "He was playing Monopoly"
+        },
+        {
+            "title": "Extremely Alive",
+            "riddle": "I have 13 hearts, but no other organs. What am I?",
+            "answer": "A deck of cards"
+        },
+        {
+            "title": "Family Lineage",
+            "riddle": "Two father and two sons are in a car, yet there are only three people in the car. How?",
+            "answer": "It was a grandfather, his son, and his grandson"
+        },
+        {
+            "title": "Buried Alive",
+            "riddle": "You bury me when I am alive, and dig me up when I die. What am I?",
+            "answer": "A plant"
+        },
+        {
+            "title": "Cake Cutter",
+            "riddle": "You have a birthday cake and have exactly 3 slices to cut it into 8 equal pieces. How do you do it?",
+            "answer": "Cut from the top in 4 equal pieces, then cut the cake in half horizontally"
+        },
+        {
+            "title": "Rearrange Riddle",
+            "riddle": "What common English verb becomes its own past tense by rearranging its letters?",
+            "answer": "Eat / ate"
+        },
+        {
+            "title": "Well Traveled",
+            "riddle": "What goes around the world but stays in a corner?",
+            "answer": "A stamp"
+        },
+        {
+            "title": "Give and Take",
+            "riddle": "What gets bigger the more you take away from it?",
+            "answer": "A hole"
+        },
+        {
+            "title": "House Riddle",
+            "riddle": "You live in a one story house made entirely of redwood. What color would the stairs be?",
+            "answer": "There are no stairs in a one story house"
+        },
+        {
+            "title": "Only Up",
+            "riddle": "What goes up but never comes down?",
+            "answer": "Age"
+        },
+        {
+            "title": "Broken and Useful",
+            "riddle": "What is more useful when it is broken?",
+            "answer": "An egg"
+        },
+        {
+            "title": "Old and Young",
+            "riddle": "I am tall when I am young, and I am short when I am old. What am I?",
+            "answer": "A candle"
+        },
+        {
+            "title": "Duck, Duck, more Duck",
+            "riddle": "There are two ducks in front of a duck, two ducks behind a duck, and a duck in the middle. How many ducks are there?",
+            "answer": "3"
+        },
+        {
+            "title": "Dirty and Clean",
+            "riddle": "I am white when I am dirty, and black when I am clean. What am I?",
+            "answer": "A chalkboard"
+        },
+        {
+            "title": "Three Two One",
+            "riddle": "If you have three, you have three. If you have two, you have two. But if you have one, you have none. What am I?",
+            "answer": "A choice"
+        },
+        {
+            "title": "Yours",
+            "riddle": "What belongs to you, but other people use it more than you?",
+            "answer": "Your name"
+        },
+        {
+            "title": "Shorter Riddle",
+            "riddle": "What becomes shorter when you add two letters to it?",
+            "answer": "Short"
+        },
+        {
+            "title": "One Minute Riddle",
+            "riddle": "What comes once in a minute and twice in a moment, but never in a thousand years?",
+            "answer": "The letter 'm'"
+        },
+        {
+            "title": "Broken Riddle",
+            "riddle": "What gets harder to break the more it is broken?",
+            "answer": "Record"
+        },
+        {
+            "title": "4 Letter Riddle",
+            "riddle": "What 4 letter word is the same written forwards, backwards and upside down?",
+            "answer": "NOON"
+        },
+        {
+            "title": "Big Riddle",
+            "riddle": "What is as big as an elephant, but weighs nothing at all?",
+            "answer": "An elephant's shadow"
+        },
+        {
+            "title": "Feed the Beast",
+            "riddle": "Feed me and I live, yet give me a drink and I die. What am I?",
+            "answer": "Fire"
+        }
+    ]
+}
+

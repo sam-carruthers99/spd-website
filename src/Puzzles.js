@@ -28,7 +28,6 @@ export default function Puzzles(){
     
     return (
         // Just have a weekly puzzle. It will cycle through original ones that you have made. So you can repeat stuff and continue experimenting with creating original ones. 
-        // This way though, you can use these puzzles in other escape rooms that you make. 
         <div className="puzzle--container">
             <h3 className="puzzles-title">Puzzle of the Week</h3>
             <div className="puzzle--content">

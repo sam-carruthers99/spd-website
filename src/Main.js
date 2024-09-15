@@ -40,6 +40,7 @@ export default function Main(props) {
                     </div>
                     <div className="empty--box" >A dive into historical ciphers and how to break them</div>     
                 </div>
+                
         </div>
     )
 }
